@@ -8,6 +8,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="container">
+        <Route path="/" exact component={About} />
         <Route path="/about" exact component={About} />
         <Route path="/resume" exact component={Resume} />
         <Route path="/portfolio" exact component={Portfolio} />
