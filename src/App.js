@@ -1,13 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { Route } from 'react-router-dom';
-import { About, Resume, Porrtfolio, Portfolio } from './pages';
+import { About, Resume, Portfolio } from './pages';
+import { Navbar } from './components';
 
 class App extends React.Component {
   render() {
     return (
-      <div className="container">
+      <div className="container-fluid">
+
+        <Navbar />
+
         <Route path="/" exact component={About} />
         <Route path="/about" exact component={About} />
         <Route path="/resume" exact component={Resume} />
