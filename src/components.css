@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Damion|Lacquer|Lobster|Viga&display=swap');
+
+.logo { 
+    font-family:'Lobster', sans-serif; 
+    font-size: 36px;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.navbar-nav a {
+  position: relative;
+  transform: translateY(0);
+  transition: .3s;  
+}
+
+.navbar-nav a:hover {
+    transform: translateY(-5px);
+}
+
+.navbar-nav a:after {
+    content: '';
+    position: absolute;
+    left: 50%; 
+    right: 50%;
+    bottom: 4px;
+    height: 0;
+    border-bottom: 2px solid #fff;
+    transition: .3s;   
+}
+
+.navbar-nav a:hover:after {
+    left: 10%;
+    right: 10%;
+}
+.nav-item > a:hover {
+    color: #ffffff;
+}
+
