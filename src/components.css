@@ -26,7 +26,7 @@
     right: 50%;
     bottom: 4px;
     height: 0;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid rgb(219, 39, 39);
     transition: .3s;   
 }
 
@@ -35,6 +35,13 @@
     right: 10%;
 }
 .nav-item > a:hover {
-    color: #ffffff;
+    color: #bd0303;
 }
+
+
+.navbar .nav-item.active .nav-link,
+.navbar .nav-item:hover .nav-link {
+    color: #F7FE22;
+}
+
 
