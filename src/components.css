@@ -9,7 +9,7 @@
     font-size: 20px;
 }
 
-.navbar-nav a {
+/* .navbar-nav a {
   position: relative;
   transform: translateY(0);
   transition: .3s;  
@@ -36,7 +36,7 @@
 }
 .nav-item > a:hover {
     color: #bd0303;
-}
+} */
 
 
 .navbar .nav-item.active .nav-link,
