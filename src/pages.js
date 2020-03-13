@@ -1,12 +1,13 @@
 import React from 'react';
 import logo from './logo_nanya_pic.svg';
+import photo from './photo.JPG';
 
 const About = () => {
     return (
         <div className="container-fluid">
             <div className="row">
                 <div className="col-12 col-md-6 mb-4 mt-5">
-                    <img src="https://picsum.photos/id/684/500/500" alt="" className="img-fluid" />
+                    <img src={photo} height="300" width="300" alt="" className="img-fluid rounded mx-auto d-block" />
                 </div>
 
                 <div className="col-12 col-md-6">
