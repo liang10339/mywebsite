@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/mywebsite/static/css/main.25d1f4e0.chunk.css",
+    "main.js": "/mywebsite/static/js/main.56c668e7.chunk.js",
+    "main.js.map": "/mywebsite/static/js/main.56c668e7.chunk.js.map",
+    "runtime-main.js": "/mywebsite/static/js/runtime-main.94311097.js",
+    "runtime-main.js.map": "/mywebsite/static/js/runtime-main.94311097.js.map",
+    "static/js/2.59e94602.chunk.js": "/mywebsite/static/js/2.59e94602.chunk.js",
+    "static/js/2.59e94602.chunk.js.map": "/mywebsite/static/js/2.59e94602.chunk.js.map",
+    "index.html": "/mywebsite/index.html",
+    "precache-manifest.e2a4a3c5adcc015500dcd4341fa269dc.js": "/mywebsite/precache-manifest.e2a4a3c5adcc015500dcd4341fa269dc.js",
+    "service-worker.js": "/mywebsite/service-worker.js",
+    "static/css/main.25d1f4e0.chunk.css.map": "/mywebsite/static/css/main.25d1f4e0.chunk.css.map",
+    "static/js/2.59e94602.chunk.js.LICENSE.txt": "/mywebsite/static/js/2.59e94602.chunk.js.LICENSE.txt",
+    "static/media/logo_nanya_pic.svg": "/mywebsite/static/media/logo_nanya_pic.76747076.svg",
+    "static/media/photo.JPG": "/mywebsite/static/media/photo.69c6d0a6.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94311097.js",
+    "static/js/2.59e94602.chunk.js",
+    "static/css/main.25d1f4e0.chunk.css",
+    "static/js/main.56c668e7.chunk.js"
+  ]
+}
