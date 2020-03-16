@@ -14,10 +14,11 @@ class App extends React.Component {
         <Switch>
 
           <Route path="/" exact component={About} />
+          <Route path={`${process.env.PUBLIC_URL}/`} component={About} />
           <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />
           <Route path="/portfolio" component={Portfolio} />
-          <Redirect from="/:id" to="/about" />
+          {/* <Redirect from="/:id" to="/about" /> */}
 
         </Switch>
 
