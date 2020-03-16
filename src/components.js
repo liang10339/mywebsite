@@ -26,22 +26,20 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarContent">
                 <ul className="navbar-nav ml-auto flex-nowrap">
                     <li className="nav-item" >
-                        {/* <Link className="nav-link"  to="/about" >
-                            About
-                        </Link> */}
-                        <a href="/about" className="nav-link"> About </a>
+                            <Link className="nav-link " to="/about" >About</Link> 
+                         {/* <a href="/about" className="nav-link"> About </a>  */}
                     </li>
                     <li className="nav-item">
-                        {/* <Link className="nav-link" to="/resume">
+                        <Link className="nav-link" to="/resume">
                             Resume
-                        </Link> */}
-                        <a href="/resume" className="nav-link"> Resume </a>
+                        </Link>
+                        {/* <a href="/resume" className="nav-link"> Resume </a> */}
                     </li>
                     <li className="nav-item">
-                        {/* <Link className="nav-link" to="/portfolio">
+                        <Link className="nav-link" to="/portfolio">
                             Portfolio
-                        </Link> */}
-                        <a href="/portfolio" className="nav-link"> Portfolio </a>
+                        </Link>
+                        {/* <a href="/portfolio" className="nav-link"> Portfolio </a> */}
                     </li>
                 </ul>
             </div>
