@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/about/static/css/main.25d1f4e0.chunk.css",
-    "main.js": "/about/static/js/main.719665ab.chunk.js",
-    "main.js.map": "/about/static/js/main.719665ab.chunk.js.map",
-    "runtime-main.js": "/about/static/js/runtime-main.585f4d45.js",
-    "runtime-main.js.map": "/about/static/js/runtime-main.585f4d45.js.map",
-    "static/js/2.5221ebea.chunk.js": "/about/static/js/2.5221ebea.chunk.js",
-    "static/js/2.5221ebea.chunk.js.map": "/about/static/js/2.5221ebea.chunk.js.map",
-    "index.html": "/about/index.html",
-    "precache-manifest.65ff7c6502b8b04a7bd259b36d27dc55.js": "/about/precache-manifest.65ff7c6502b8b04a7bd259b36d27dc55.js",
-    "service-worker.js": "/about/service-worker.js",
-    "static/css/main.25d1f4e0.chunk.css.map": "/about/static/css/main.25d1f4e0.chunk.css.map",
-    "static/js/2.5221ebea.chunk.js.LICENSE.txt": "/about/static/js/2.5221ebea.chunk.js.LICENSE.txt",
-    "static/media/logo_nanya_pic.svg": "/about/static/media/logo_nanya_pic.76747076.svg",
-    "static/media/photo.JPG": "/about/static/media/photo.69c6d0a6.JPG"
+    "main.css": "/mywebsite/static/css/main.25d1f4e0.chunk.css",
+    "main.js": "/mywebsite/static/js/main.719665ab.chunk.js",
+    "main.js.map": "/mywebsite/static/js/main.719665ab.chunk.js.map",
+    "runtime-main.js": "/mywebsite/static/js/runtime-main.94311097.js",
+    "runtime-main.js.map": "/mywebsite/static/js/runtime-main.94311097.js.map",
+    "static/js/2.5221ebea.chunk.js": "/mywebsite/static/js/2.5221ebea.chunk.js",
+    "static/js/2.5221ebea.chunk.js.map": "/mywebsite/static/js/2.5221ebea.chunk.js.map",
+    "index.html": "/mywebsite/index.html",
+    "precache-manifest.cc9829dfe1d231247734e98e879ee361.js": "/mywebsite/precache-manifest.cc9829dfe1d231247734e98e879ee361.js",
+    "service-worker.js": "/mywebsite/service-worker.js",
+    "static/css/main.25d1f4e0.chunk.css.map": "/mywebsite/static/css/main.25d1f4e0.chunk.css.map",
+    "static/js/2.5221ebea.chunk.js.LICENSE.txt": "/mywebsite/static/js/2.5221ebea.chunk.js.LICENSE.txt",
+    "static/media/logo_nanya_pic.svg": "/mywebsite/static/media/logo_nanya_pic.76747076.svg",
+    "static/media/photo.JPG": "/mywebsite/static/media/photo.69c6d0a6.JPG"
   },
   "entrypoints": [
-    "static/js/runtime-main.585f4d45.js",
+    "static/js/runtime-main.94311097.js",
     "static/js/2.5221ebea.chunk.js",
     "static/css/main.25d1f4e0.chunk.css",
     "static/js/main.719665ab.chunk.js"
