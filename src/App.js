@@ -18,7 +18,7 @@ class App extends React.Component {
           <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />
           <Route path="/portfolio" component={Portfolio} />
-          {/* <Redirect from="/:id" to="/about" /> */}
+          <Redirect from="/:id" to="/about" />
 
         </Switch>
 

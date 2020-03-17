@@ -13,7 +13,7 @@ const About = () => {
                 <div className="col-12 col-md-7">
                     <h2 className="mt-5 mb-4">About Me</h2>
                     <p> Hi, I'm Yu Liang. I was born in 1994. Experienced in Perl, Building several simple websites with HTML, CSS, and JavaScript for my department,and I build it in LAMP environment. Seeking to become the next front end developer. </p>
-                    <p> Email : liang10339@gmail.com <br></br>
+                    <p> Email : liang10339@gmail.com <br />
                      LinkedIn : <a href="https://www.linkedin.com/in/yuliang-lnh21645/"> YuLiang</a>
                      </p>
                 </div>

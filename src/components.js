@@ -5,9 +5,9 @@ import "./components.css"
 
 const Navbar = () => {
     return (
-        
+
         <nav className="navbar navbar-expand-sm  navbar-dark bg-dark">
-            <Link className="navbar-brand" to="/">
+            <Link className="navbar-brand" to="/about">
                 <span className="logo" > YuLiang </span>
             </Link>
 
@@ -26,20 +26,19 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarContent">
                 <ul className="navbar-nav ml-auto flex-nowrap">
                     <li className="nav-item" >
-                            <Link className="nav-link " to="/about" >About</Link> 
-                         {/* <a href="/about" className="nav-link"> About </a>  */}
+                        <Link className="nav-link " to="/about" >
+                            About
+                        </Link>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link" to="/resume">
                             Resume
                         </Link>
-                        {/* <a href="/resume" className="nav-link"> Resume </a> */}
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link" to="/portfolio">
                             Portfolio
                         </Link>
-                        {/* <a href="/portfolio" className="nav-link"> Portfolio </a> */}
                     </li>
                 </ul>
             </div>
