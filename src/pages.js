@@ -15,7 +15,7 @@ const About = () => {
                     <p> Hi, I'm Yu Liang. I was born in 1994. Experienced in Perl, Building several simple websites with HTML, CSS, and JavaScript for my department,and I build it in LAMP environment. Seeking to become the next front end developer. </p>
                     <p> Email : liang10339@gmail.com <br />
                      LinkedIn : <a href="https://www.linkedin.com/in/yuliang-lnh21645/"> YuLiang</a>
-                     </p>
+                    </p>
                 </div>
             </div>
         </div>
@@ -35,7 +35,7 @@ const Resume = () => {
                     <p className="mb-1"> C# </p>
                     <p className="mb-1"> PHP </p>
                     <p className="mb-1"> MySQL,SQL </p>
-                </div> 
+                </div>
                 <div className="col-6 col-md-4">
                     <p className="mb-1"> Advanced </p>
                     <p className="mb-1"> Intermediate </p>
@@ -51,25 +51,23 @@ const Resume = () => {
                 <div className="col-12 col-md-7 ">
                     <h5 className="mt-2 mb-1">Wafer Test Engineer</h5>
                     <h6 className="mt-1 mb-4 text-secondary">Nanya Technology</h6>
-                    <li> Using Perl
-                        {/* <ul>
-                            <li>Check if there is any trouble in wafer test process ,like whether program </li>
-                            <li>Purus sodales ultricies</li>
-                        </ul> */}
+                    <li> Writing Perl in SUSE
+                        <ul >
+                            <li>setting up cron job to check if there is any trouble in wafer test process </li>
+                            <li>using some command to monitor processes, outputs, capacity and system resource usage </li>
+                            <li>using regex to find specific word and write in output file </li>
+                        </ul>
                     </li>
 
                     <li> Building Website in HTML,CSS,JavaScript
-                        {/* <ul>
-                            <li></li>
-                            <li></li>
-                        </ul> */}
+                        <ul>
+                            <li>Buind in LAMP environment</li>
+                            <li>add import and export csv file function by JavaScript library </li>
+                        </ul> 
                     </li>
 
                     <li> Fixing Hardware
-                        {/* <ul>
-                            <li></li>
-                            <li></li>
-                        </ul> */}
+                         <p>if fsck fail</p>
                     </li>
 
                     <li> Troubleshooting
@@ -103,7 +101,7 @@ const Resume = () => {
                 </div>
             </div>
 
-            
+
 
 
 

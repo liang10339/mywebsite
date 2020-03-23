@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Route, Switch, Redirect } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import { About, Resume, Portfolio } from './pages';
 import { Navbar } from './components';
 
@@ -18,7 +18,6 @@ class App extends React.Component {
           <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />
           <Route path="/portfolio" component={Portfolio} />
-          <Redirect from="/:id" to="/about" />
 
         </Switch>
 
