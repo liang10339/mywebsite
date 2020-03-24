@@ -4,7 +4,7 @@ import photo from './photo.JPG';
 
 const About = () => {
     return (
-        <div className="container-fluid">
+        <div className="container">
             <div className="row">
                 <div className="col-12 col-md-5 mb-4 mt-5">
                     <img src={photo} height="300" width="300" alt="" className="img-fluid rounded mx-auto d-block" />
@@ -45,37 +45,39 @@ const Resume = () => {
                 </div>
             </div>
 
-            <div className="row mt-5">
+            <div className="row mt-3">
                 <h2 className="mb-3 ml-2">Experience</h2>
                 <div className="w-100"></div>
                 <div className="col-12 col-md-7 ">
                     <h5 className="mt-2 mb-1">Wafer Test Engineer</h5>
                     <h6 className="mt-1 mb-4 text-secondary">Nanya Technology</h6>
-                    <li> Writing Perl in SUSE
-                        <ul >
-                            <li>setting up cron job to check if there is any trouble in wafer test process </li>
-                            <li>using some command to monitor processes, outputs, capacity and system resource usage </li>
-                            <li>using regex to find specific word and write in output file </li>
-                        </ul>
-                    </li>
+                    <h6> <li>Writing Perl in SUSE </li></h6>
+                    <ul >
+                        <li>setting up cron job to check if there is any trouble in wafer test process </li>
+                        <li>using some command to monitor processes, outputs, capacity and system resource usage </li>
+                        <li>using regex to find specific word and write in output file </li>
+                    </ul>
 
-                    <li> Building Website in HTML,CSS,JavaScript
-                        <ul>
-                            <li>Buind in LAMP environment</li>
-                            <li>add import and export csv file function by JavaScript library </li>
-                        </ul> 
-                    </li>
 
-                    <li> Fixing Hardware
-                         <p>if fsck fail</p>
-                    </li>
+                    <h6> <li> Building Website in HTML,CSS,JavaScript </li> </h6>
+                    <ul>
+                        <li>Buind in LAMP environment</li>
+                        <li>add import and export csv file function by JavaScript library </li>
+                    </ul>
 
-                    <li> Troubleshooting
-                        {/* <ul>
-                            <li></li>
-                            <li></li>
-                        </ul> */}
-                    </li>
+
+                    <h6> <li>Fixing Hardware </li></h6>
+                    <ul>
+                        <li>use fsck to repair file system errors</li>
+                        <li>check MotherBoard,RAM,VGA,HDD,PSU...etc</li>
+                    </ul>
+
+
+                    <h6><li> Troubleshooting </li></h6>
+                    <ul>
+                        <li>Find out errors in wafer test program ,monitor program,or hardware problems</li>
+                    </ul>
+
                 </div>
                 <div className="col-12 col-md-5">
                     <p className="text-primary mt-2 mb-1"> January 2018 - August 2019</p>
@@ -83,7 +85,7 @@ const Resume = () => {
                 </div>
             </div>
 
-            <div className="row mt-5 mb-4">
+            <div className="row mt-3 mb-4">
                 <h2 className="mb-3 ml-2">Education</h2>
                 <div className="w-100"></div>
                 <div className="col-12 col-md-7">
