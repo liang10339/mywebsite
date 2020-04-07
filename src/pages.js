@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo_nanya_pic.svg';
 import photo from './photo.JPG';
+import todo from './todolist.jpg';
 
 const About = () => {
     return (
@@ -25,9 +26,9 @@ const About = () => {
 const Resume = () => {
     return (
 
-        <div className="container ml-5">
-            <div className="row mt-5">
-                <h2 className="mb-3 ml-2">Skills</h2>
+        <div className="container">
+            <div className="row mt-4">
+                <h2 className="col-12 col-md-5 mb-3">Skills</h2>
                 <div className="w-100"></div>
                 <div className="col-6 col-md-4">
                     <p className="mb-1"> Perl </p>
@@ -102,26 +103,30 @@ const Resume = () => {
                     <p className="text-primary mt-2 mb-1">September  2010 - June 2013</p>
                 </div>
             </div>
-
-
-
-
-
-
         </div>
-
-
-
-
-
-
-
-
     );
 };
 
 const Portfolio = () => {
-    return <h1 className="py-3">Portfolio</h1>;
+    return (
+
+        <div className="container">
+            <div className="row mt-4 ">
+                <h2 className="col-12 col-md-5 mb-3">Portfolio</h2>
+                <div className="w-100"></div>
+                <div className=" col-12 col-md-4 ">
+                    <img className="img" src={todo} alt="Card" width="300" height="200"/>
+                    <div className="card-body ">
+                        <h4 className="card-title">Todo List</h4>
+                        <p className="card-text">Using Vanilla JS to create a todo list</p>
+                        <a target="_blank" rel="noopener noreferrer" href="https://codepen.io/liang10339/pen/ExjqjVY" class="stretched-link"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    );
 };
 
 
