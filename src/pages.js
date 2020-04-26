@@ -3,6 +3,7 @@ import logo from './logo_nanya_pic.svg';
 import photo from './photo.JPG';
 import todo from './todolist.jpg';
 import ball from './ball.jpg';
+import extension from './extension.png';
 
 const About = () => {
     return (
@@ -129,6 +130,14 @@ const Portfolio = () => {
                         <h4 className="card-title">Bounce Ball</h4>
                         <p className="card-text">Using Canvas to create a bounce ball</p>
                         <a target="_blank" rel="noopener noreferrer" href="https://codepen.io/liang10339/pen/zYvrLgX" class="stretched-link"></a>
+                    </div>
+                </div>
+                <div className=" col-12 col-md-4 ">
+                    <img className="img" src={extension} alt="Card" width="300" height="200"/>
+                    <div className="card-body ">
+                        <h4 className="card-title">Chrome extension</h4>
+                        <p className="card-text">Using nodeType and nodeValue to replace words</p>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/liang10339/wordToTaiwanese" class="stretched-link"></a>
                     </div>
                 </div>
             </div>
