@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/mywebsite/static/css/main.97128ecd.chunk.css",
-    "main.js": "/mywebsite/static/js/main.b538f1a7.chunk.js",
-    "main.js.map": "/mywebsite/static/js/main.b538f1a7.chunk.js.map",
-    "runtime-main.js": "/mywebsite/static/js/runtime-main.94311097.js",
-    "runtime-main.js.map": "/mywebsite/static/js/runtime-main.94311097.js.map",
-    "static/js/2.103700d2.chunk.js": "/mywebsite/static/js/2.103700d2.chunk.js",
-    "static/js/2.103700d2.chunk.js.map": "/mywebsite/static/js/2.103700d2.chunk.js.map",
+    "main.css": "/mywebsite/static/css/main.7f469d20.chunk.css",
+    "main.js": "/mywebsite/static/js/main.35ee4cf8.chunk.js",
+    "main.js.map": "/mywebsite/static/js/main.35ee4cf8.chunk.js.map",
+    "runtime-main.js": "/mywebsite/static/js/runtime-main.2e72d8b5.js",
+    "runtime-main.js.map": "/mywebsite/static/js/runtime-main.2e72d8b5.js.map",
+    "static/js/2.db6e0bf4.chunk.js": "/mywebsite/static/js/2.db6e0bf4.chunk.js",
+    "static/js/2.db6e0bf4.chunk.js.map": "/mywebsite/static/js/2.db6e0bf4.chunk.js.map",
     "index.html": "/mywebsite/index.html",
-    "precache-manifest.aed5d6eeee5f76f571ebdd5f094fd529.js": "/mywebsite/precache-manifest.aed5d6eeee5f76f571ebdd5f094fd529.js",
+    "precache-manifest.5737dbac7997335d0da510b0200051b5.js": "/mywebsite/precache-manifest.5737dbac7997335d0da510b0200051b5.js",
     "service-worker.js": "/mywebsite/service-worker.js",
-    "static/css/main.97128ecd.chunk.css.map": "/mywebsite/static/css/main.97128ecd.chunk.css.map",
-    "static/js/2.103700d2.chunk.js.LICENSE.txt": "/mywebsite/static/js/2.103700d2.chunk.js.LICENSE.txt",
+    "static/css/main.7f469d20.chunk.css.map": "/mywebsite/static/css/main.7f469d20.chunk.css.map",
+    "static/js/2.db6e0bf4.chunk.js.LICENSE.txt": "/mywebsite/static/js/2.db6e0bf4.chunk.js.LICENSE.txt",
     "static/media/ball.jpg": "/mywebsite/static/media/ball.a61d1e3d.jpg",
     "static/media/extension.png": "/mywebsite/static/media/extension.93986c5a.png",
-    "static/media/logo_nanya_pic.svg": "/mywebsite/static/media/logo_nanya_pic.76747076.svg",
+    "static/media/logo_nanya_pic.svg": "/mywebsite/static/media/logo_nanya_pic.4cf7f62c.svg",
     "static/media/photo.JPG": "/mywebsite/static/media/photo.69c6d0a6.JPG",
     "static/media/todolist.jpg": "/mywebsite/static/media/todolist.ec4c7b51.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.94311097.js",
-    "static/js/2.103700d2.chunk.js",
-    "static/css/main.97128ecd.chunk.css",
-    "static/js/main.b538f1a7.chunk.js"
+    "static/js/runtime-main.2e72d8b5.js",
+    "static/js/2.db6e0bf4.chunk.js",
+    "static/css/main.7f469d20.chunk.css",
+    "static/js/main.35ee4cf8.chunk.js"
   ]
 }
