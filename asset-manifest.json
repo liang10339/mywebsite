@@ -1,27 +1,18 @@
 {
   "files": {
-    "main.css": "/mywebsite/static/css/main.7f469d20.chunk.css",
-    "main.js": "/mywebsite/static/js/main.35ee4cf8.chunk.js",
-    "main.js.map": "/mywebsite/static/js/main.35ee4cf8.chunk.js.map",
-    "runtime-main.js": "/mywebsite/static/js/runtime-main.2e72d8b5.js",
-    "runtime-main.js.map": "/mywebsite/static/js/runtime-main.2e72d8b5.js.map",
-    "static/js/2.db6e0bf4.chunk.js": "/mywebsite/static/js/2.db6e0bf4.chunk.js",
-    "static/js/2.db6e0bf4.chunk.js.map": "/mywebsite/static/js/2.db6e0bf4.chunk.js.map",
+    "main.css": "/mywebsite/static/css/main.b1d6a91e.css",
+    "main.js": "/mywebsite/static/js/main.59535bcb.js",
+    "static/media/photo.JPG": "/mywebsite/static/media/photo.e5139a15d04f586c84e8.JPG",
+    "static/media/todolist.jpg": "/mywebsite/static/media/todolist.1b72eb8898d0ac8a4a09.jpg",
+    "static/media/extension.png": "/mywebsite/static/media/extension.9a282ab02bcc3bb9f28c.png",
+    "static/media/ball.jpg": "/mywebsite/static/media/ball.3746e0f47b54f6393cf7.jpg",
+    "static/media/logo_nanya_pic.svg": "/mywebsite/static/media/logo_nanya_pic.ca17813da107053b7ad7b6c3d5aecf25.svg",
     "index.html": "/mywebsite/index.html",
-    "precache-manifest.5737dbac7997335d0da510b0200051b5.js": "/mywebsite/precache-manifest.5737dbac7997335d0da510b0200051b5.js",
-    "service-worker.js": "/mywebsite/service-worker.js",
-    "static/css/main.7f469d20.chunk.css.map": "/mywebsite/static/css/main.7f469d20.chunk.css.map",
-    "static/js/2.db6e0bf4.chunk.js.LICENSE.txt": "/mywebsite/static/js/2.db6e0bf4.chunk.js.LICENSE.txt",
-    "static/media/ball.jpg": "/mywebsite/static/media/ball.a61d1e3d.jpg",
-    "static/media/extension.png": "/mywebsite/static/media/extension.93986c5a.png",
-    "static/media/logo_nanya_pic.svg": "/mywebsite/static/media/logo_nanya_pic.4cf7f62c.svg",
-    "static/media/photo.JPG": "/mywebsite/static/media/photo.69c6d0a6.JPG",
-    "static/media/todolist.jpg": "/mywebsite/static/media/todolist.ec4c7b51.jpg"
+    "main.b1d6a91e.css.map": "/mywebsite/static/css/main.b1d6a91e.css.map",
+    "main.59535bcb.js.map": "/mywebsite/static/js/main.59535bcb.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.2e72d8b5.js",
-    "static/js/2.db6e0bf4.chunk.js",
-    "static/css/main.7f469d20.chunk.css",
-    "static/js/main.35ee4cf8.chunk.js"
+    "static/css/main.b1d6a91e.css",
+    "static/js/main.59535bcb.js"
   ]
 }
