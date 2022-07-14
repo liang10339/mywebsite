@@ -15,7 +15,7 @@ const About = () => {
 
                 <div className="col-12 col-md-7">
                     <h2 className="mt-5 mb-4">About Me</h2>
-                    <p> Hi, I'm Yu Liang. I was born in 1994. Experienced in Perl, Building several simple websites with HTML, CSS, and JavaScript for my department,and I build it in LAMP environment. Seeking to become the next front end developer. </p>
+                    <p> Hi, I'm Yu Liang. I was born in 1994. Experienced in Perl, Building several simple websites with HTML, CSS, and JavaScript for my department,and I build it in LAMP environment. Seeking to become the next software engineer. </p>
                     <p> Email : liang10339@gmail.com <br />
                      LinkedIn : <a href="https://www.linkedin.com/in/yuliang-lnh21645/"> YuLiang</a>
                     </p>
@@ -116,6 +116,14 @@ const Portfolio = () => {
             <div className="row mt-4 ">
                 <h2 className="col-12 col-md-5 mb-3">Portfolio</h2>
                 <div className="w-100"></div>
+        <div className=" col-12 col-md-4 ">
+                    <img className="img" src={todo} alt="Card" width="300" height="200" />
+                    <div className="card-body ">
+                        <h4 className="card-title">message</h4>
+                        <p className="card-text">Using React.js to create a message app</p>
+                        <a target="_blank" rel="noopener noreferrer" href="https://codesandbox.io/s/message-ksnexg" class="stretched-link"></a>
+                    </div>
+                </div>
                 <div className=" col-12 col-md-4 ">
                     <img className="img" src={todo} alt="Card" width="300" height="200" />
                     <div className="card-body ">
