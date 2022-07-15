@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo_nanya_pic.svg';
 import photo from './photo.JPG';
+import ecwebsite from './ecwebsite.png'
+import message from './message.jpg'
 import todo from './todolist.jpg';
 import ball from './ball.jpg';
 import extension from './extension.png';
@@ -116,6 +118,22 @@ const Portfolio = () => {
             <div className="row mt-4 ">
                 <h2 className="col-12 col-md-5 mb-3">Portfolio</h2>
                 <div className="w-100"></div>
+                <div className=" col-12 col-md-4 ">
+                    <img className="img" src={ecwebsite} alt="Card" width="300" height="200" />
+                    <div className="card-body ">
+                        <h4 className="card-title">EC Website</h4>
+                        <p className="card-text">Using Vue.js to create a E-Commerce website</p>
+                        <a target="_blank" rel="noopener noreferrer" href="https://liang10339.github.io/ecommerce-dessert/#/" class="stretched-link"></a>
+                    </div>
+                </div>
+                <div className=" col-12 col-md-4 ">
+                    <img className="img" src={message} alt="Card" width="300" height="200" />
+                    <div className="card-body ">
+                        <h4 className="card-title">message</h4>
+                        <p className="card-text">Using React.js to create a message app</p>
+                        <a target="_blank" rel="noopener noreferrer" href="https://codesandbox.io/s/message-ksnexg" class="stretched-link"></a>
+                    </div>
+                </div>
                 <div className=" col-12 col-md-4 ">
                     <img className="img" src={todo} alt="Card" width="300" height="200" />
                     <div className="card-body ">

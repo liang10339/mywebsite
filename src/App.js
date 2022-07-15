@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Route, Switch } from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 import { About, Resume, Portfolio } from './pages';
 import { Navbar } from './components';
 
@@ -11,15 +11,15 @@ class App extends React.Component {
 
         <Navbar />
 
-        <Switch>
+        <Routes>
 
-          <Route path="/" exact component={About} />
-          <Route path={`${process.env.PUBLIC_URL}/`} component={About} />
-          <Route path="/about" component={About} />
-          <Route path="/resume" component={Resume} />
-          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/" exact element={<About />} />
+          <Route path={`${process.env.PUBLIC_URL}/`} element={<About />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/portfolio" element={<Portfolio />} />
 
-        </Switch>
+        </Routes>
 
       </div>
     );
