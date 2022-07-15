@@ -1,7 +1,9 @@
 {
   "files": {
     "main.css": "/mywebsite/static/css/main.b1d6a91e.css",
-    "main.js": "/mywebsite/static/js/main.59535bcb.js",
+    "main.js": "/mywebsite/static/js/main.dd1d5992.js",
+    "static/media/ecwebsite.png": "/mywebsite/static/media/ecwebsite.4c937de7a4ed70648abb.png",
+    "static/media/message.jpg": "/mywebsite/static/media/message.f9bb56d1a92b437b6461.jpg",
     "static/media/photo.JPG": "/mywebsite/static/media/photo.e5139a15d04f586c84e8.JPG",
     "static/media/todolist.jpg": "/mywebsite/static/media/todolist.1b72eb8898d0ac8a4a09.jpg",
     "static/media/extension.png": "/mywebsite/static/media/extension.9a282ab02bcc3bb9f28c.png",
@@ -9,10 +11,10 @@
     "static/media/logo_nanya_pic.svg": "/mywebsite/static/media/logo_nanya_pic.ca17813da107053b7ad7b6c3d5aecf25.svg",
     "index.html": "/mywebsite/index.html",
     "main.b1d6a91e.css.map": "/mywebsite/static/css/main.b1d6a91e.css.map",
-    "main.59535bcb.js.map": "/mywebsite/static/js/main.59535bcb.js.map"
+    "main.dd1d5992.js.map": "/mywebsite/static/js/main.dd1d5992.js.map"
   },
   "entrypoints": [
     "static/css/main.b1d6a91e.css",
-    "static/js/main.59535bcb.js"
+    "static/js/main.dd1d5992.js"
   ]
 }
